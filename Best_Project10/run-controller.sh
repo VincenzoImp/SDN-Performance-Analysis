@@ -19,4 +19,4 @@ while [ "$1" != "" ]; do
 done
 
 sudo mn -c; clear
-ryu-manager $controller
+ryu-manager --observe-links $controller
