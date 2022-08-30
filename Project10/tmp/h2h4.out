@@ -1,0 +1,5 @@
+PING 10.0.0.4 (10.0.0.4) from 10.0.0.2 : 56(124) bytes of data.
+
+--- 10.0.0.4 ping statistics ---
+100 packets transmitted, 100 received, 0% packet loss, time 154ms
+rtt min/avg/max/mdev = 0.590/1.279/5.757/0.735 ms, ipg/ewma 1.558/1.206 ms

@@ -1,0 +1,40 @@
+PING 10.0.0.4 (10.0.0.4) from 10.0.0.1 : 56(124) bytes of data.
+[1661854501.427113] no answer yet for icmp_seq=1
+[1661854501.437290] no answer yet for icmp_seq=2
+[1661854501.673485] no answer yet for icmp_seq=14
+[1661854501.719669] no answer yet for icmp_seq=17
+[1661854501.749799] no answer yet for icmp_seq=19
+[1661854501.766639] no answer yet for icmp_seq=20
+[1661854501.889876] no answer yet for icmp_seq=29
+[1661854501.910581] no answer yet for icmp_seq=30
+[1661854501.966803] no answer yet for icmp_seq=34
+[1661854501.981064] no answer yet for icmp_seq=35
+[1661854501.995964] no answer yet for icmp_seq=36
+[1661854502.024156] no answer yet for icmp_seq=38
+[1661854502.078302] no answer yet for icmp_seq=42
+[1661854502.098554] no answer yet for icmp_seq=43
+[1661854502.114838] no answer yet for icmp_seq=44
+[1661854502.134441] no answer yet for icmp_seq=45
+[1661854502.168680] no answer yet for icmp_seq=47
+[1661854502.257840] no answer yet for icmp_seq=53
+[1661854502.272320] no answer yet for icmp_seq=54
+[1661854502.328461] no answer yet for icmp_seq=58
+[1661854502.343166] no answer yet for icmp_seq=59
+[1661854502.425414] no answer yet for icmp_seq=65
+[1661854502.479356] no answer yet for icmp_seq=69
+[1661854502.513429] no answer yet for icmp_seq=71
+[1661854502.570567] no answer yet for icmp_seq=75
+[1661854502.598711] no answer yet for icmp_seq=77
+[1661854502.616066] no answer yet for icmp_seq=78
+[1661854502.633122] no answer yet for icmp_seq=79
+[1661854502.665504] no answer yet for icmp_seq=81
+[1661854502.683037] no answer yet for icmp_seq=82
+[1661854502.700745] no answer yet for icmp_seq=83
+[1661854502.794049] no answer yet for icmp_seq=89
+[1661854502.847183] no answer yet for icmp_seq=93
+[1661854502.873454] no answer yet for icmp_seq=95
+[1661854502.886754] no answer yet for icmp_seq=96
+
+--- 10.0.0.4 ping statistics ---
+100 packets transmitted, 100 received, 0% packet loss, time 1517ms
+rtt min/avg/max/mdev = 5.167/14.687/32.396/5.032 ms, pipe 3, ipg/ewma 15.318/13.677 ms
