@@ -125,4 +125,4 @@ if __name__=='__main__':
         net.addController(c0)
         net.topo.run(rate_pkts_s)
     except IndexError:
-        print("Required arguments: topology1.py <lambda-rate>")
+        print("usage: ./topologies/topology1.py <lambda-rate>")

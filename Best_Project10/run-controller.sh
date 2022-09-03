@@ -5,20 +5,23 @@ controller="./controllers/controller1.py"
 gui="./gui/gui_topology.py"
 
 usage(){
-	echo "usage: run-controller.h [-f file]"
+	echo "usage: run-controller.h [-f <controller-file>]"
 }
 
 while [ "$1" != "" ]; do
 	case $1 in
-		-f | --file ) shift
-			      controller=$1
-			      ;;
-		* )	      usage
-			      exit 1
+		-f ) 
+			shift
+			controller=$1
+		;;
+		*  )
+			usage
+			exit 1
 	esac
 	shift
 done
 
-sudo mn -c; clear
+sudo mn -c
+clear
 ryu-manager --observe-links $gui $controller
 clear

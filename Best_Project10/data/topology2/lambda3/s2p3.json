@@ -1,1 +1,0 @@
-{"2": [{"rx_packets": 57, "tx_packets": 147, "rx_bytes": 5625, "tx_bytes": 54549, "rx_dropped": 0, "tx_dropped": 0, "rx_errors": 0, "tx_errors": 0, "rx_frame_err": 0, "rx_over_err": 0, "rx_crc_err": 0, "collisions": 0, "duration_sec": 17, "duration_nsec": 438000000, "port_no": 3}]}
