@@ -1,9 +1,9 @@
 #!/bin/bash
 
 topology="./topologies/topology2.py"
-start=5
-stop=500
-step=5
+start=2
+stop=200
+step=2
 
 usage(){
 	echo "usage: plot_graph.sh [-f <topology-file>] [--start <lamda-int-rate>] [--stop <lamda-int-rate>] [--step <lamda-int-rate>]"

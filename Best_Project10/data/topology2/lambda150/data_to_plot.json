@@ -1,37 +1,37 @@
 {
     "links_utilization": {
-        "h1s1": 254.35416,
-        "h2s2": 254.40328,
-        "h3s3": 254.18168,
-        "h4s3": 253.91575999999998,
-        "s1s2": 0.78432,
-        "s2s3": 254.41824,
-        "s3s1": 254.63504
+        "h1s1": 100,
+        "h2s2": 100,
+        "h3s3": 100,
+        "h4s3": 100,
+        "s1s2": 0.35736,
+        "s2s3": 100,
+        "s3s1": 100
     },
     "paths_info": {
         "h1h3": {
-            "avg_delay": 0.060301,
-            "pkt_drop_perc": 0.84
+            "avg_delay": 0.060319,
+            "pkt_drop_perc": 0.35
         },
         "h1h4": {
-            "avg_delay": 0.060306,
-            "pkt_drop_perc": 0.0
+            "avg_delay": 0.060319,
+            "pkt_drop_perc": 0.35
         },
         "h2h3": {
-            "avg_delay": 0.060314,
-            "pkt_drop_perc": 0.18
+            "avg_delay": 0.060318,
+            "pkt_drop_perc": 0.14
         },
         "h2h4": {
-            "avg_delay": 0.060307,
-            "pkt_drop_perc": 0.11
+            "avg_delay": 0.060315,
+            "pkt_drop_perc": 0.91
         },
         "h_h3": {
-            "avg_delay": 0.060307,
-            "pkt_drop_perc": 0.51
+            "avg_delay": 0.060318,
+            "pkt_drop_perc": 0.25
         },
         "h_h4": {
-            "avg_delay": 0.060307,
-            "pkt_drop_perc": 0.05
+            "avg_delay": 0.060317,
+            "pkt_drop_perc": 0.63
         }
     }
 }

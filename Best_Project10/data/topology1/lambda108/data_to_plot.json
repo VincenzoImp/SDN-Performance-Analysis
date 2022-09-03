@@ -1,0 +1,36 @@
+{
+    "links_utilization": {
+        "h1s1": 91.10355999999999,
+        "h2s2": 91.85940000000001,
+        "h3s3": 89.42179999999999,
+        "h4s3": 89.6434,
+        "s1s2": 91.15496,
+        "s2s3": 100
+    },
+    "paths_info": {
+        "h1h3": {
+            "avg_delay": 0.080506,
+            "pkt_drop_perc": 2.22
+        },
+        "h1h4": {
+            "avg_delay": 0.080518,
+            "pkt_drop_perc": 1.72
+        },
+        "h2h3": {
+            "avg_delay": 0.060417,
+            "pkt_drop_perc": 2.09
+        },
+        "h2h4": {
+            "avg_delay": 0.060419,
+            "pkt_drop_perc": 1.96
+        },
+        "h_h3": {
+            "avg_delay": 0.070371,
+            "pkt_drop_perc": 2.15
+        },
+        "h_h4": {
+            "avg_delay": 0.070469,
+            "pkt_drop_perc": 1.84
+        }
+    }
+}

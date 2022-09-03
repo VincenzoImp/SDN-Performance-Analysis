@@ -2,38 +2,38 @@ ITGDec version 2.8.1 (r1023)
 Compile-time options: bursty multiport
 ----------------------------------------------------------
 Flow number: 1
-From 10.0.0.1:46006
+From 10.0.0.1:42030
 To    10.0.0.4:8999
 ----------------------------------------------------------
-Total time               =     19.537581 s
-Total packets            =           946
-Minimum delay            =      0.060033 s
-Maximum delay            =      0.061107 s
-Average delay            =      0.060441 s
-Average jitter           =      0.000193 s
-Delay standard deviation =      0.000230 s
-Bytes received           =        484352
-Average bitrate          =    198.326292 Kbit/s
-Average packet rate      =     48.419505 pkt/s
-Packets dropped          =             0 (0.00 %)
+Total time               =     19.490425 s
+Total packets            =           919
+Minimum delay            =      0.060034 s
+Maximum delay            =      0.063678 s
+Average delay            =      0.060477 s
+Average jitter           =      0.000213 s
+Delay standard deviation =      0.000232 s
+Bytes received           =        470528
+Average bitrate          =    193.131961 Kbit/s
+Average packet rate      =     47.151358 pkt/s
+Packets dropped          =            28 (2.96 %)
 Average loss-burst size  =      0.000000 pkt
 ----------------------------------------------------------
 ----------------------------------------------------------
 Flow number: 1
-From 10.0.0.2:58655
+From 10.0.0.2:48687
 To    10.0.0.4:8999
 ----------------------------------------------------------
-Total time               =     19.532236 s
-Total packets            =           954
-Minimum delay            =      0.060037 s
-Maximum delay            =      0.061169 s
-Average delay            =      0.060442 s
-Average jitter           =      0.000192 s
-Delay standard deviation =      0.000230 s
-Bytes received           =        488448
-Average bitrate          =    200.058201 Kbit/s
-Average packet rate      =     48.842334 pkt/s
-Packets dropped          =             0 (0.00 %)
+Total time               =     19.469390 s
+Total packets            =           931
+Minimum delay            =      0.060036 s
+Maximum delay            =      0.061154 s
+Average delay            =      0.060484 s
+Average jitter           =      0.000211 s
+Delay standard deviation =      0.000213 s
+Bytes received           =        476672
+Average bitrate          =    195.865202 Kbit/s
+Average packet rate      =     47.818653 pkt/s
+Packets dropped          =             7 (0.75 %)
 Average loss-burst size  =      0.000000 pkt
 ----------------------------------------------------------
 
@@ -41,17 +41,17 @@ __________________________________________________________
 ****************  TOTAL RESULTS   ******************
 __________________________________________________________
 Number of flows          =             2
-Total time               =     19.537581 s
-Total packets            =          1900
-Minimum delay            =      0.060033 s
-Maximum delay            =      0.061169 s
-Average delay            =      0.060442 s
-Average jitter           =      0.000188 s
-Delay standard deviation =      0.000230 s
-Bytes received           =        972800
-Average bitrate          =    398.329763 Kbit/s
-Average packet rate      =     97.248477 pkt/s
-Packets dropped          =             0 (0.00 %)
-Average loss-burst size  =             0 pkt
+Total time               =     19.490425 s
+Total packets            =          1850
+Minimum delay            =      0.060034 s
+Maximum delay            =      0.063678 s
+Average delay            =      0.060481 s
+Average jitter           =      0.000207 s
+Delay standard deviation =      0.000223 s
+Bytes received           =        947200
+Average bitrate          =    388.785776 Kbit/s
+Average packet rate      =     94.918402 pkt/s
+Packets dropped          =            35 (1.86 %)
+Average loss-burst size  =      0.000000 pkt
 Error lines              =             0
 ----------------------------------------------------------

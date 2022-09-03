@@ -15,7 +15,7 @@ class Network_Topology(Topo):
 
     def build(self, **opts):
 
-        self.BW = 10
+        self.BW = 20
 
         # Add hosts and switches
         h1 = self.addHost('h1')
@@ -59,6 +59,7 @@ class Network_Topology(Topo):
         time_ms = 20000
         pkt_size_bytes = 512
         ttl = 64
+        time_s = time_ms/1000
 
         h1 = net.getNodeByName('h1')
         h2 = net.getNodeByName('h2')
@@ -127,7 +128,7 @@ class Network_Topology(Topo):
         for d in data:
             if d['port_no'] == port:
                 used_bytes = d["rx_bytes"] + d["tx_bytes"]
-                return (used_bytes/max_bytes)*100
+                return min(100, (used_bytes/max_bytes)*100)
         return None
 
     def compute_path_info(self, filename, src):
