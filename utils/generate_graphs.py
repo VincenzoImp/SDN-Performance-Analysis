@@ -4,10 +4,11 @@ import json
 import matplotlib.pyplot as plt
 
 def plot_graph(topology, start, stop, step):
+    
     topology = os.path.basename(topology)
     y_lu = {}
     y_ad = {}
-    y_pdp = {}
+    y_pd = {}
     x = []
     for lambda_int_rate in range(start, stop+1, step):
         x.append(lambda_int_rate)
@@ -20,7 +21,7 @@ def plot_graph(topology, start, stop, step):
                 avg_delay = dict_info["avg_delay"]
                 y_ad[path] = [avg_delay]
                 pkt_drop_perc = dict_info["pkt_drop_perc"]
-                y_pdp[path] = [pkt_drop_perc]
+                y_pd[path] = [pkt_drop_perc]
         else:
             for link, utilization in data["links_utilization"].items():
                 y_lu[link].append(utilization)
@@ -28,23 +29,36 @@ def plot_graph(topology, start, stop, step):
                 avg_delay = dict_info["avg_delay"]
                 y_ad[path].append(avg_delay)
                 pkt_drop_perc = dict_info["pkt_drop_perc"]
-                y_pdp[path].append(pkt_drop_perc)
+                y_pd[path].append(pkt_drop_perc)
 
+    folder = "./data/{}/plots_{}_{}_{}".format(topology, start, stop, step)
+    if not os.path.exists(folder):
+        os.mkdir(folder)
 
     for k, v in y_lu.items():
         plt.plot(x, v, label = k)
     plt.legend()
-    plt.show()
+    plt.xlabel("lambda rate (pkt/s)")
+    plt.ylabel("link utilization (%)")
+    plt.savefig("{}/links_utilization.svg".format(folder), format='svg')
+    plt.close()
 
     for k, v in y_ad.items():
         plt.plot(x, v, label = k)
     plt.legend()
-    plt.show()
+    plt.xlabel("Lambda Rate (pkt/s)")
+    plt.ylabel("end-to-end delay (s)")
+    plt.savefig("{}/avg_delay.svg".format(folder), format='svg')
+    plt.close()
 
-    for k, v in y_pdp.items():
+    for k, v in y_pd.items():
         plt.plot(x, v, label = k)
     plt.legend()
-    plt.show()
+    plt.xlabel("lambda rate (pkt/s)")
+    plt.ylabel("packet drop (%)")
+    plt.savefig("{}/pkt_drop.svg".format(folder), format='svg')
+    plt.close()
+
     return
 
 

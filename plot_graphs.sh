@@ -34,5 +34,5 @@ while [ "$1" != "" ]; do
 	shift
 done
 
-python3 ./utils/generate_graphs.py $topology $start $stop $step
+sudo python3 ./utils/generate_graphs.py $topology $start $stop $step
 
