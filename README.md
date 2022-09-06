@@ -1,6 +1,6 @@
 # Usage
 
-#### This project uses [Mininet](http://mininet.org/) to simmulate SDN topologies. 
+#### This project uses Mininet to simmulate SDN topologies. 
 
 - Note : The Controller application and the Mininet topology must be running on separate terminals.
 

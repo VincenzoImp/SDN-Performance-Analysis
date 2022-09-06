@@ -82,19 +82,19 @@ Finally, from the \autoref{fig:TOPO1_pkt_drop} we note that for lambda rates gre
 \begin{figure}[H]
     \centering
     \includesvg[width=0.8\columnwidth]{images/TOPO1_links_utilization}
-    \caption{Links Utilization}
+    \caption{Links Utilization Topology v1}
     \label{fig:TOPO1_links_utilization}
 \end{figure}
 \begin{figure}[H]
     \centering
     \includesvg[width=0.8\columnwidth]{images/TOPO1_avg_delay}
-    \caption{End-to-End Delay}
+    \caption{End-to-End Delay Topology v1}
     \label{fig:TOPO1_avg_delay}
 \end{figure}
 \begin{figure}[H]
     \centering
     \includesvg[width=0.8\columnwidth]{images/TOPO1_pkt_drop}
-    \caption{Packet Drop}
+    \caption{Packet Drop Topology v1}
     \label{fig:TOPO1_pkt_drop}
 \end{figure}
 
@@ -148,28 +148,47 @@ Note that $cost(S_2, S_3)$ has been reduced to 2, and therefore since for each l
 \subsection{Results}
 Also for the Topology v2, the following three graphs were generated as lambda rate increased: bandwidth utilization (\autoref{fig:TOPO2_links_utilization}), end-to-end latency on average (\autoref{fig:TOPO2_avg_delay}), and packet drop (\autoref{fig:TOPO2_pkt_drop}). \\
 From the \autoref{fig:TOPO2_links_utilization} we note that the use of all links grows linearly in the same way, except for the link $S_1, S_2$ which is not used for packet routing. We also note that with lambda rate 120 pkt/s we saturate the utilization of all the useful links.\\
-From the \autoref{fig:TOPO2_avg_delay} we notice that all packets are the same latency, while from the \autoref{fig:TOPO2_pkt_drop} we note that in the range of lambda rates studied, there aren't relevant packet drop.
+From the \autoref{fig:TOPO2_avg_delay} we notice that all packets are the same latency, while from the \autoref{fig:TOPO2_pkt_drop} we note that in the range of lambda rates studied, there aren't relevant packet drop.\\
 
 \begin{figure}[H]
     \centering
     \includesvg[width=0.8\columnwidth]{images/TOPO2_links_utilization}
-    \caption{Links Utilization}
+    \caption{Links Utilization Topology v2}
     \label{fig:TOPO2_links_utilization}
 \end{figure}
 \begin{figure}[H]
     \centering
     \includesvg[width=0.8\columnwidth]{images/TOPO2_avg_delay}
-    \caption{End-to-End Delay}
+    \caption{End-to-End Delay Topology v2}
     \label{fig:TOPO2_avg_delay}
 \end{figure}
 \begin{figure}[H]
     \centering
     \includesvg[width=0.8\columnwidth]{images/TOPO2_pkt_drop}
-    \caption{Packet Drop}
+    \caption{Packet Drop Topology v2}
     \label{fig:TOPO2_pkt_drop}
 \end{figure}
 
+\noindent At the end we extended the lambda rate range for the Topology v2 simulation to see when we obtain an encrease of packet drop. So new graph was created: bandwidth utilization (\autoref{fig:TOPO2bis_links_utilization}), end-to-end latency on average (\autoref{fig:TOPO2bis_avg_delay}), and packet drop (\autoref{fig:TOPO2bis_pkt_drop}). For lambda rates greater than 240 pkt/s the packet drop grows linearly.
 
+\begin{figure}[H]
+    \centering
+    \includesvg[width=0.8\columnwidth]{images/TOPO2bis_links_utilization}
+    \caption{Links Utilization Topology v2}
+    \label{fig:TOPO2bis_links_utilization}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includesvg[width=0.8\columnwidth]{images/TOPO2bis_avg_delay}
+    \caption{End-to-End Delay Topology v2}
+    \label{fig:TOPO2bis_avg_delay}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includesvg[width=0.8\columnwidth]{images/TOPO2bis_pkt_drop}
+    \caption{Packet Drop Topology v2}
+    \label{fig:TOPO2bis_pkt_drop}
+\end{figure}
 
 \newpage
 \printbibliography[heading=bibintoc]
