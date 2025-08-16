@@ -110,18 +110,6 @@ Performance data is extracted using:
 - **D-ITG**: End-to-end delay and packet loss measurements
 - **Custom scripts**: Automated data processing and visualization
 
-## File Structure
-
-```
-├── controllers/          # SDN controller implementations
-├── topologies/          # Network topology definitions
-├── gui/                 # Web-based topology visualization
-├── latex/               # Documentation and reports
-├── run_controller.sh    # Controller startup script
-├── test_topo.sh        # Topology testing script
-└── plot_graphs.sh      # Performance visualization script
-```
-
 ## Output
 
 The analysis generates:
@@ -208,4 +196,5 @@ This project conducted comprehensive performance analysis comparing two network 
 **SDN Controller Validation:**
 - Shortest-path algorithm correctly adapts to topology changes
 - Dynamic flow table management handles route optimization automatically
+
 - OpenFlow integration enables real-time performance monitoring
